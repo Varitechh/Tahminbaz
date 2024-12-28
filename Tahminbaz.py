@@ -6,10 +6,10 @@ from colorama import Fore, Style
 
 pygame.init()
 pygame.mixer.init()
-pygame.mixer.music.load("C:\\Users\\EmirVAR\\Desktop\\‏\\Python\\Şarkı\\FonMuzigi.mp3")
-sound_file1="C:\\Users\\EmirVAR\\Desktop\\‏\\Python\\Şarkı\\Cevap.mp3"
-sound_file2="C:\\Users\\EmirVAR\\Desktop\\‏\\Python\\Şarkı\\Error.mp3"
-sound_file3="C:\\Users\\EmirVAR\\Desktop\\‏\\Python\\Şarkı\\Kapanis.mp3"
+pygame.mixer.music.load("C:\\Users\\Kullanıcı\\Desktop\\‏\\Python\\Şarkı\\FonMuzigi.mp3")
+sound_file1="C:\\Users\\Kullanıcı\\Desktop\\‏\\Python\\Şarkı\\Cevap.mp3"
+sound_file2="C:\\Users\\Kullanıcı\\Desktop\\‏\\Python\\Şarkı\\Error.mp3"
+sound_file3="C:\\Users\\Kullanıcı\\Desktop\\‏\\Python\\Şarkı\\Kapanis.mp3"
 sound1=pygame.mixer.Sound(sound_file1)
 sound2=pygame.mixer.Sound(sound_file2)
 sound3=pygame.mixer.Sound(sound_file3)
